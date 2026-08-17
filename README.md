@@ -1,80 +1,37 @@
 # Car Sales Dashboard
 
-A web application built with Streamlit for exploring car sales advertisement data through interactive visualizations.
+This repository contains a web application built with Streamlit for exploring car sales advertisement data through interactive visualizations.
 
-## 🚀 Live Demo
+## Project Overview
 
-**[View Live Application](https://app-web-4oqf.onrender.com/)**
+This project was developed as part of a Data Analytics Bootcamp curriculum. The primary goal is to create an interactive web dashboard that allows users to explore a dataset of car sales advertisements. By providing on-demand visualizations, the application facilitates the analysis of vehicle mileage distribution and its correlation with pricing.
 
-## 📋 Project Description
+*Dashboard Link:* [View Live Application on Render](#) *(Note: insert your live demo link here)*
 
-This project is part of the TripleTen Data Analysis Bootcamp (Sprint 5). The goal is to create an interactive web dashboard that allows users to explore a dataset of car sales advertisements through different types of visualizations.
+## Tools & Technologies
 
-The application provides:
-- **Histogram visualization**: Shows the distribution of vehicle mileage
-- **Scatter plot visualization**: Explores the relationship between mileage and price
-- **Interactive buttons**: Users can generate charts on demand
+*   **Python 3.x:** Core programming language.
+*   **Streamlit:** Web application framework for UI creation and interactivity.
+*   **Pandas:** Data manipulation, cleaning, and analysis.
+*   **Plotly Express:** Interactive data visualization.
+*   **Render:** Cloud deployment platform.
 
-## 🛠️ Technologies Used
+## Key Features
 
-- **Python 3.x**
-- **Streamlit** - Web application framework
-- **Pandas** - Data manipulation and analysis
-- **Plotly Express** - Interactive data visualization
-- **Render** - Cloud deployment platform
+| Feature Category | Description |
+| :--- | :--- |
+| **Distribution Analysis** | Interactive histogram visualization that displays the distribution of vehicle mileage (odometer readings) across the entire dataset. |
+| **Pricing Relationship** | Dynamic scatter plot visualization designed to explore and identify correlations between vehicle mileage and listing price. |
+| **User Interactivity** | Clean UI with interactive buttons that allow users to generate, toggle, and manipulate charts on demand without reloading the page. |
 
-## 📁 Project Structure
+## Repository Structure
 
-```
+```text
 ├── README.md
 ├── app.py                 # Main Streamlit application
 ├── vehicles.csv           # Car sales dataset
 ├── requirements.txt       # Python dependencies
 ├── notebooks/
-│   └── EDA.ipynb         # Exploratory Data Analysis
+│   └── EDA.ipynb          # Exploratory Data Analysis
 └── .streamlit/
-    └── config.toml       # Streamlit configuration for deployment
-
-🚀 How to Run Locally
-
-Clone the repository
-
-bash
-git clone https://github.com/renanhfduarte-star/App_web.git
-cd App_web
-
-Create a virtual environment
-
-conda create -n vehicles_env python=3.9
-conda activate vehicles_env
-
-Install dependencies
-
-pip install -r requirements.txt
-
-Run the application
-
-streamlit run app.py
-
-Open your browser and go to http://localhost:8501
-
-📊 Dataset
-
-The dataset contains information about car sales advertisements including:
-- Vehicle mileage (odometer readings)
-- Pricing information
-- Various vehicle characteristics
-
-Source: Car sales advertisements dataset
-
-🌐 Deployment
-This application is deployed on Render and is accessible via the live demo link above.
-
-👨‍💻 Author
-Renan Duarte
-- GitHub: @renanhfduarte-star
-- LinkedIn: renanduarteferreira
-
-📝 License
-This project is part of the TripleTen Data Analysis Bootcamp curriculum.
-```
+    └── config.toml        # Streamlit configuration for deployment
