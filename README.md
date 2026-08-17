@@ -6,7 +6,7 @@ This repository contains a web application built with Streamlit for exploring ca
 
 This project was developed as part of a Data Analytics Bootcamp curriculum. The primary goal is to create an interactive web dashboard that allows users to explore a dataset of car sales advertisements. By providing on-demand visualizations, the application facilitates the analysis of vehicle mileage distribution and its correlation with pricing.
 
-*Dashboard Link:* [View Live Application on Render](#) *(https://app-web-4oqf.onrender.com/)*
+*Dashboard Link:* [View Live Application on Render]*(https://app-web-4oqf.onrender.com/)*
 
 ## Tools & Technologies
 
